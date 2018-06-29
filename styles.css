@@ -1,0 +1,113 @@
+/*Created by: Udacity 
+Edited by: Assumpta Nalubowa*/
+
+body {
+    /*text-align: center;*/
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 70px;
+    margin: 0.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    }
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 35px;
+    display: inline-block;
+
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #aeaeae;
+}
+td:hover{
+    background-color: #aeaeae;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+/*----------- Added by Assumpta Nalubowa ----------------*/
+
+button, input[type="submit"]{
+    background-color: #ffff00;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 0.4em 0.8em;
+    border-radius: 4px;
+    font-weight: 600;
+}
+button:hover, input[type="submit"]:hover{
+    -webkit-box-shadow: 10px 10px 48px 0px rgba(168,159,168,1);
+    -moz-box-shadow: 10px 10px 48px 0px rgba(168,159,168,1);
+    box-shadow: 10px 10px 48px 0px rgba(168,159,168,1);
+}
+.margin{
+    margin: 20px;
+}
+.grey_container{
+    border: 1px solid #dedede;
+    padding:0 5% 1% 5%;
+    margin: 1% 10%;
+    border-radius: 5px;
+}
+.label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+input[type="number"]{
+    width: 7%;
+    margin-left: 0.2em;
+    height: 30px;
+    margin-right: 1.8em;
+
+}
+input[type="color"]{
+    width: 100px;
+    height: 40px;
+    border: 0;
+}
+.inline_block{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+.clear_grid_btn{
+    position: relative;
+    bottom: 9px;
+    left:115px;
+}
+.content{
+    padding-left: 23%;
+}
+#pixelCanvas{
+    margin: auto;
+}
