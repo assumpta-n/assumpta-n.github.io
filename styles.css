@@ -11,6 +11,7 @@ h1 {
     margin: 0.2em;
     letter-spacing: 1px;
     text-align: center;
+    font-weight: 100;
     }
 
 h2 {
@@ -19,7 +20,7 @@ h2 {
     letter-spacing: 1px;
     font-size: 35px;
     display: inline-block;
-
+    font-weight: 100;
 }
 
 h2:first-of-type {
@@ -80,7 +81,7 @@ button:hover, input[type="submit"]:hover{
 .label{
     font-family: 'Roboto', sans-serif;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 100;
 }
 input[type="number"]{
     width: 7%;
