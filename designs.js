@@ -16,16 +16,16 @@ $('#sizePicker').submit(function makeGrid(e) {
 	$('#pixelCanvas').children().remove();//First clear the canvas. remove any html inside <table>.i.e any previously drawn grid.
 	var gridHeight = $('#inputHeight').val(); //Obtain the values of the table height and width (to be drawn) as specified 
 	var gridWidth = $('#inputWidth').val();	//by the user; through the grid height and Grid Width form inputs.
-	   										//The grid height and grid width specify the number of rows and columns to be 
-	   										//drawn in the grid(table) respectively!
+	   					//The grid height and grid width specify the number of rows and columns to be 
+	   					//drawn in the grid(table) respectively!
 
 	for(var rows = 1; rows <= gridHeight; rows++){	//start counting from one to the grid height number specified by the user 
-													//in ascending order and at(for) each stage of the count; 
+							//in ascending order and at(for) each stage of the count; 
 		$('#pixelCanvas').append('<tr></tr>'); //Firstly, Draw a table row(<tr>) inside the #pixelCanvas <table>.  
 		for(var cols = 1; cols <= gridWidth; cols++){// Secondly, inside that row, start counting from one to the gridwidth 
-													 //number specified by the user in ascending order; and at each stage
+							     //number specified by the user in ascending order; and at each stage
 													 //of the count;  
-			$('tr').last().append('<td></td>');      //add a column(<td>) into that particular(lastly drawn) row!
+			$('tr').last().append('<td></td>');  //add a column(<td>) into that particular(lastly drawn) row!
 		}
 	}
 	
@@ -49,7 +49,7 @@ $('#pixelCanvas').click(function(e){
 //onClick event was added! 
 function clearGrid(){
 	 $('#pixelCanvas tr td').css('background-color', 'inherit'); //Remove any pixel art by changing the color of the table cells
-	 															 //to that of its parent element. In this particular case, white!
+	 							   //to that of its parent element. In this particular case, white!
 	 															 
 }
 
