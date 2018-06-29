@@ -56,7 +56,7 @@ input[type=number] {
 /*----------- Added by Assumpta Nalubowa ----------------*/
 
 button, input[type="submit"]{
-    background-color: #ffff00;
+    background: linear-gradient(to right, #ffcccc, #ccccff );
     border: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -68,6 +68,7 @@ button:hover, input[type="submit"]:hover{
     -webkit-box-shadow: 10px 10px 48px 0px rgba(168,159,168,1);
     -moz-box-shadow: 10px 10px 48px 0px rgba(168,159,168,1);
     box-shadow: 10px 10px 48px 0px rgba(168,159,168,1);
+    color: white;
 }
 .margin{
     margin: 20px;
