@@ -88,7 +88,7 @@ input[type="number"]{
     margin-left: 0.2em;
     height: 30px;
     margin-right: 1.8em;
-
+    text-align: center;
 }
 input[type="color"]{
     width: 100px;
